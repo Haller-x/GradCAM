@@ -3,8 +3,8 @@
 An easy to use implementation of GradCam for Tensorflow models.
 
 ## Requirements:
-1.Tensorflow model built using Functional API.
-2.Docker and Nvidia Docker(GPU)
+1. Tensorflow model built using Functional API.
+2. Docker and Nvidia Docker(GPU)
 
 
 ## How to use?
