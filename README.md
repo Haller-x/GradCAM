@@ -7,11 +7,13 @@ An easy to use implementation of GradCam for Tensorflow models.
 2.Docker and Nvidia Docker(GPU)
 
 
-##How to use?
+## How to use?
 Building the container
 `docker build -t env_name .`
+
 Acessing the container (jupyter notebook)
 `docker run --gpus all -v "$(pwd)":/code -p 8888:8888 env_name`
+
 Using the module
 ```
 from gradcam import Gradcam
