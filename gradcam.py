@@ -10,7 +10,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 from tensorflow.keras.models import load_model
 
 
-class Gradcam:
+class GradCam:
     
     def __init__(self, model:str, size:tuple):
         """
