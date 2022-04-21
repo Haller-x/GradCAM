@@ -1,4 +1,5 @@
-# GradCam
+# Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization
+
 
 An easy to use implementation of GradCam for Tensorflow models.
 
@@ -16,7 +17,7 @@ Acessing the container (jupyter notebook)
 
 Using the module
 ```
-from gradcam import Gradcam
+from gradcam import GradCAM
 #loading model and image size
 gd = Gradcam('model.h5',size=(300,300))
 #display
