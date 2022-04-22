@@ -19,11 +19,11 @@ Acessing the container (jupyter notebook)
 The model should preferably be built using tensorflow:nightly-gpu-jupyter to avoid compatibility issues.
 
 
-Using the module
+Using the module 
 ```
 from gradcam import GradCAM
 #loading model and image size
 gd = GradCAM('model.h5',size=(300,300))
 #display
-gd.display(img_path='test.jpg')
+gd.display(img_path='test.jpg') #works on jupyter notebook only
 ``` 
